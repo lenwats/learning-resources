@@ -102,7 +102,7 @@ Instead of:
         }
     }
     ```
-We can use the 'Elvis operator' as the null-coalescing operator:
+We can use the null-coalescing operator:
   - ```       
     if (order?.Recipient?.EmailAddress != null) 
     {
